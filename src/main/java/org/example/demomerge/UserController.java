@@ -9,8 +9,9 @@ public class UserController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from main branch!";
+        return "Xin chào từ feature branch!";
     }
+
 
     @GetMapping("/user")
     public User getUser() {
