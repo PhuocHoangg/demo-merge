@@ -10,6 +10,7 @@ public class UserController {
     @GetMapping("/hello")
     public String hello() {
         return "Xin chào từ feature branch!";
+        return "Hello từ main branch!";
     }
 
 
